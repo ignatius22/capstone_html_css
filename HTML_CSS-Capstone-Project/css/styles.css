@@ -24,6 +24,10 @@ body {
 	
 }
 
+.component{
+	display: flex;
+}
+
 .h2{
 box-shadow: 0 9px 12px 0 #ff0084 , 0 9px 20px 0 red;
 border: 1px #ccc solid;
