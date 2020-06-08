@@ -9,30 +9,53 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Muse Guitars</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav-bar container-fluid">
         <div class="logo">
-				<img src="./assets/img/gold-treble-clef-11547072722wvjt9iiyky.png" alt="" width="100" height="100">
-					
-					<div class="cover-music">
-						<h2>Muse Guitars</h2>
-						<img src="./assets/img/music.svg" alt="">
-					</div>
-				</div>
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">collection</a></li>
-          <li><a href="#">purchase list</a></li>
+          <img
+            class="music-img"
+            src="./assets/img/music-1368896.svg"
+            alt="guitar"
+          />
+
+          <div class="cover-music">
+            <h2>Muse Guitars</h2>
+          </div>
+        </div>
+        <ul class="link-items">
+          <li>
+            <img src="./assets/img/home.svg" alt="" />
+            <a href="#">home</a>
+          </li>
+          <li>
+            <img src="./assets/img/collection.svg" alt="" />
+            <a href="#">collection</a>
+          </li>
+          <li>
+            <img src="./assets/img/cart.svg" alt="" />
+            <a href="#">purchase list</a>
+          </li>
           <button>post an add</button>
-				</ul>
-				<div class="right">
-					<img src="" alt="">
-					<div class="name"></div>
-				</div>
+        </ul>
+        <div class="right">
+          <img src="./assets/img/evelop.svg" alt="" /><span
+            class="badge badge-light"
+            >4</span
+          >
+
+          <div class="user-info">
+            <p>John Doe</p>
+            <div class="avatar">
+              <img src="./assets/img/woman.svg" alt="" width="50" height="50" />
+            </div>
+          </div>
+        </div>
       </nav>
+      <div class="more-contents"></div>
     </header>
   </body>
 </html>
