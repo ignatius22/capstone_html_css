@@ -4,14 +4,14 @@ body {
 }
 
 .nav-bar {
-  background: linear-gradient(to right, 
-#000000
-, #434343);
+  background: #383838;
   display: flex;
 	justify-content: space-around;
 	align-items: center;
 	padding: 10px;
 	box-shadow: 0 9px 12px 0 #ff0084 , 0 9px 20px 0 red;
+	position: sticky;
+	top: 0;
 	
 }
 
@@ -21,11 +21,52 @@ body {
 	padding-top:70px;
 	padding-bottom: 30px;
 	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
 	
 }
 
+.shops-items{
+	background-color: #888888;
+}
+
+
+
 .component{
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 18px;
+
+}
+
+.sales-info{
+	width: 50%;
+	font-size: 15px;
+}
+.price{
+	font-size: 16px;
+}
+.sales-info h1{
+	font-size: 16px;
+	font-family: "Gotham Bold";
+}
+
+.items{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: auto;
+}
+
+.items .carts{
+	border: 1px #ff0084 solid;
+	
+}
+
+
+.product img{
+width: 300px;
+height: 200px;
+
 }
 
 .h2{
@@ -180,7 +221,14 @@ justify-content: center;
 	margin: 12px;
 	font-size: 12px;
 }
-
+.shops-items{
+	padding-top: 12px;
+	border-top: 3px #ccc solid;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-gap: 1.2em;
+}
 
 }
 

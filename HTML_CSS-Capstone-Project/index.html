@@ -10,24 +10,27 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css"
+    />
     <title>Muse Guitars</title>
   </head>
   <body>
     <header>
-      <nav class="nav-bar container-fluid col ">
+      <nav class="nav-bar container-fluid col">
         <div class="logo">
           <img
-            class="music-img shadow-lg mb-5  rounded"
+            class="music-img shadow-lg mb-5 rounded"
             src="./assets/img/music-1368896.svg"
             alt="guitar"
           />
 
-          <div class="cover-music  rounded">
-            <h2 class="display-4" >Muse Guitars</h2>
+          <div class="cover-music rounded">
+            <h2 class="display-4">Muse Guitars</h2>
           </div>
         </div>
         <ul class="link-items">
-          <li class="list-1" >
+          <li class="list-1">
             <img src="./assets/img/home.svg" alt="" />
             <a href="#">home</a>
           </li>
@@ -42,10 +45,10 @@
           <button class="button-post">post an add</button>
         </ul>
         <div class="right">
-					<div class="counter-envelop">
-						<img class="evelop" src="./assets/img/evelop.svg" alt="" /><p class="counter">4</p>
-					</div>
-          
+          <div class="counter-envelop">
+            <img class="evelop" src="./assets/img/evelop.svg" alt="" />
+            <p class="counter">4</p>
+          </div>
 
           <div class="user-info">
             <p>John Doe</p>
@@ -56,37 +59,264 @@
         </div>
       </nav>
       <div class="more-contents">
-			<h2 class="display-4 h2">Muse Guitars</h2>
-			<p class="lead">Buying and selling can't be this simple</p>
+        <h2 class="display-5 h2">Muse Guitars</h2>
+        <p class="lead">Buying and selling can't be this simple</p>
 
-			<div class="input-fields">
-				<input type="text">
-				<input type="text" placeholder="what do you search for?">
-				<input type="text">
-				<input type="button" value="search">
-			</div>
-			</div>
-		
+        <div class="input-fields">
+          <div class="result-option-sort">
+            <fieldset>
+              <select
+                id="sortBytop"
+                name="Ns"
+                title="Select Sort By"
+                class="results-options--option-control -sort"
+              >
+                <option selected="selected" value="bM">Best Match</option>
+                <option value="bS">Top Sellers</option>
+                <option value="oR">Customer Ratings</option>
+                <option value="pHL">Price - High to Low</option>
+                <option value="pLH">Price - Low to High</option>
+                <option value="cD">Newest First</option>
+                <option value="bN">Brand Name A-Z</option>
+              </select>
+            </fieldset>
+            <input type="text" placeholder="what do you search for?" />
+            <input type="text" />
+            <input type="button" value="search" />
+          </div>
+        </div>
+      </div>
     </header>
-		<div class="component">
-		<div class="image product">
-			<div class="price">hot adds</div>
-		</div>
-		<div class="sales-info">
-		<h1>hot deals</h1>
-		<p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum quis pariatur voluptas ex sed optio eaque recusandae quod placeat praesentium, nobis alias veritatis aliquid tempore accusamus tenetur, accusantium quo!</p>
-		<div class="author">
-		<p>by: John Doe</p>
-		<p>location: san fransico </p>
-		</div>
-		<div class="btn-grp">
-			<button>$50</button>
-			<button>purchase</button>
-			</div>
-		</div>
-	
-		</div>
+    <div class="component container mb-4">
+      <div class="image product">
+        <h3 class="price">hot adds</h3>
+        <img src="./assets/img/guitar-1.jpeg" alt="" />
+      </div>
+      <div class="sales-info">
+        <h1>hot deals</h1>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum
+          quis pariatur voluptas ex sed optio eaque recusandae quod placeat
+          praesentium, nobis alias veritatis aliquid tempore accusamus tenetur,
+          accusantium quo!
+        </p>
+        <div class="author">
+          <p>by: John Doe</p>
+          <p>location: san fransico</p>
+        </div>
+        <div class="btn-grp">
+          <button>$50</button>
+          <button>purchase</button>
+        </div>
+      </div>
+    </div>
+    <div class="shops-items container-fluid">
+      <div class="heading p-4">
+        <div class="pic"></div>
+        <div class="text">
+          Exclusive Guitars: (bass guitar, lead guitars, acoustic guitars)
+        </div>
+      </div>
+      <div class="items">
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heading p-4">
+        <div class="pic"></div>
+        <div class="text">
+          Exclusive Guitars: (bass guitar, lead guitars, acoustic guitars)
+        </div>
+      </div>
+      <div class="items">
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
+
+     
+
+      <div class="heading p-4">
+        <div class="pic"></div>
+        <div class="text">
+          Exclusive Guitars: (bass guitar, lead guitars, acoustic guitars)
+        </div>
+      </div>
+      <div class="items">
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carts">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="details">
+            <h1>acoustic</h1>
+            <div class="status"><p>used</p></div>
+            <div class="locate">canada</div>
+            <div class="bottom-item">
+              <div class="plus">+</div>
+              <div class="price">$567</div>
+            </div>
+          </div>
+        </div>
+    </div>
   </body>
 </html>
