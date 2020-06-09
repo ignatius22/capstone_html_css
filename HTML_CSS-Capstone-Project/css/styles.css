@@ -59,9 +59,19 @@ body {
 
 .items .carts{
 	border: 1px #ff0084 solid;
-	
+
 }
 
+.main-footer{
+	display: flex;
+	margin-top: 56px;
+	justify-content: space-between;
+	align-items: center;
+}
+.categories{
+	display: flex;
+	justify-content: space-around;
+}
 
 .product img{
 width: 300px;
