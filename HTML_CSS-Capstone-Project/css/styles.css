@@ -1,6 +1,9 @@
 body {
   margin: 0;
-  padding: 0;
+	padding: 0;
+
+  
+    line-height: 1.6;
 }
 
 .nav-bar {
@@ -12,6 +15,7 @@ body {
   box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
   position: sticky;
   top: 0;
+	font-family: "gotham rounded bold";
 }
 
 .more-contents {
@@ -20,26 +24,56 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+		font-family: "gotham rounded light";
+		color: #ffffff;
 }
 
+.text{
+	font-family: "gotham rounded light";
+}
+.Ex{
+
+	font-family: "gotham rounded bold";
+
+}
 .shops-items {
-  background-color: #888888;
+  background-color: #e3e3e3;
 }
 
-.component {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 18px;
-}
 
 .sales-info {
   width: 50%;
-  font-size: 15px;
+	font-size: 15px;
+	
+	
 }
+
+.view-all{
+	font-size: 18px;
+	color: #d35266;
+		font-family: "gotham rounded light";
+		font-weight: 700;
+}
+
+
+.author{
+	font-family: "gotham rounded light";
+	
+}
+
+.info{
+	/* font-family: "gotham rounded bold"; */
+	font-family: 'Metrophobic', sans-serif;
+	line-height: 1.5em;
+	font-size: 17px;
+	
+}
+
 .price {
-  font-size: 16px;
+	font-size: 16px;
+	font-family: 'Gotham rounded bold';
+	color: #d35266;
+	
 }
 .sales-info h1 {
   font-size: 16px;
@@ -50,10 +84,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: auto;
-	
 	grid-gap: 1.2em;
 	
 }
+
+
+
 
 .items .carts {
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -63,7 +99,55 @@ body {
 
 .details h1{
 	font-size: 19px;
-	font-weight: 500;
+	line-height: 1.2em;
+	font-family: "gotham rounded bold";
+	padding: 10px;
+}
+
+.plus{
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	border: 2px #888888 solid;
+	text-align: center;
+	cursor: pointer;
+}
+
+.bottom-item{
+	display: flex;
+	
+	align-items: center;
+	justify-content: space-around;
+}
+
+footer{
+	background-color: #ffffff;
+	margin-top: 12px;
+}
+
+.group-categories{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: 1px #ccc solid;
+}
+
+
+
+
+.category1 ul li a, .category2 ul li a, .copyright,.texts p{
+color: #888888;
+}
+
+.category1 ul li, .category2 ul li{
+  list-style: none;
+
+}
+
+.learn{
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #d35266;
 }
 
 .main-footer {
@@ -89,14 +173,34 @@ body {
 }
 
 .product img {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
 }
 
 .product{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.price-btn{
+	padding: 4px;
+	width: 100px;
+}
+
+.price-btn,.purchase-btn{
+	background-color: #d35266;
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: capitalize;
+	border-radius: 4px;
+	border: none;
+	font-family: "gotham rounded";
+}
+
+.purchase-btn{
+	width: 200px;
+	padding: 4px;
 }
 
 
@@ -119,16 +223,18 @@ body {
   padding-top: 12px;
 }
 
-.lead {
+.buy-sell {
   font-size: 25px;
-  color: #333;
+	color: #ffffff;
+	font-weight: 500;
+	
 }
 
 .button-post {
   padding: 5px;
   border: none;
   border-radius: 4px;
-  background-color: #ea384d;
+  background-color: #d35266;
   box-shadow: 0 2px 3px 0 #ff0084, 0 9px 20px 0 #33001b;
   text-align: center;
   text-transform: uppercase;
@@ -138,11 +244,12 @@ body {
 
 h2 {
   text-transform: uppercase;
-  color: #ffffff;
+	color: #ffffff;
+	font-family: "'Gotham Rounded Book';";
 }
 
 .link-items .list-1 a {
-  color: #ea384d;
+  color: #d35266;
 }
 
 .link-items {
@@ -235,14 +342,19 @@ h2 {
 /* ================================================== */
 /* Media queries */
 /* ================================================== */
+/* 
+@media (max-width: 768px){
+  body {
+    overflow-x: hidden;
+}
 
-@media (max-width: 576px) {
   .nav-bar {
     background: linear-gradient(to right, #000000, #434343);
     display: flex;
     flex-direction: column;
     padding: 10px;
     box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
+    
   }
   .link-items {
     display: flex;
@@ -259,6 +371,63 @@ h2 {
     font-weight: 500;
   }
 
+.input-fields {
+	padding-top: 23px;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+}
+
+
+  .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+
+.main-footer {
+  display: flex;
+  margin-top: 56px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.copyright {
+	border-top: 1px #ccc solid;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.sales-info {
+  width: 100%;
+	font-size: 15px;
+	
+	
+}
+.d-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+
   .list,
   .list-1 {
     margin: 12px;
@@ -272,9 +441,21 @@ h2 {
     grid-template-rows: auto;
     grid-gap: 1.2em;
   }
+
+  .items {
+  display: grid;
+  grid-template-columns:1fr;
+	grid-template-rows: auto;
+	grid-gap: 1.2em;
+	
+}
+.more-contents{
+  display: none;
 }
 
-@media (max-width: 768px) {
+}
+
+@media (min-width: 768px) {
   .nav-bar {
     background: linear-gradient(to right, #000000, #434343);
     display: flex;
@@ -289,9 +470,7 @@ h2 {
   .link-items .list {
     font-size: 8px;
   }
-  .right {
-    display: none;
-  }
+  
   .cover-music {
     height: 50px;
     width: 150px;
@@ -300,6 +479,25 @@ h2 {
     padding-top: 12px;
     box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
   }
+
+  .items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 1.2em;
+	
+}
+  body {
+    overflow-x: hidden;
+}
+
+.sales-info {
+  width: 100%;
+	font-size: 15px;
+	
+	
+}
+
   .button-post {
     padding: 2px;
     border: none;
@@ -315,8 +513,8 @@ h2 {
     width: 10px;
   }
 }
-
-@media (max-width: 992px) {
+ 
+@media (min-width: 992px) {
   .nav-bar {
     background: linear-gradient(to right, #000000, #434343);
     display: flex;
@@ -331,6 +529,15 @@ h2 {
   .link-items .list {
     font-size: 12px;
   }
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 1.2em;
+	
+}
+
   .cover-music {
     height: 50px;
     width: 200px;
@@ -341,21 +548,39 @@ h2 {
   }
 }
 
-@media (max-width: 1200px) {
-  .nav-bar {
-    background: linear-gradient(to right, #000000, #434343);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
-  }
+@media (min-width: 1200px) {
+
+.nav-bar {
+  background: #383838;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
+  position: sticky;
+  top: 0;
+	font-family: "gotham rounded bold";
+}
   .display-4 {
     font-size: 20px;
   }
   .link-items .list {
     font-size: 12px;
   }
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.music-img {
+  position: absolute;
+}
+
   .cover-music {
     height: 50px;
     width: 200px;
@@ -364,4 +589,12 @@ h2 {
     padding-top: 12px;
     box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
   }
+
+  .items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 1.2em;
+	
 }
+}  */

@@ -11,7 +11,16 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
-      rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/gotham-fonts@1.0.3/css/gotham-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/system-font-css@2.0.2/system-font.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap"
+      rel="stylesheet"
     />
     <title>Muse Guitars</title>
   </head>
@@ -36,7 +45,7 @@
           </li>
           <li class="list">
             <img src="./assets/img/collection.svg" alt="" />
-            <a href="#">collection</a>
+            <a href="collection.html">collection</a>
           </li>
           <li class="list">
             <img src="./assets/img/cart.svg" alt="" />
@@ -60,82 +69,78 @@
       </nav>
       <div class="more-contents">
         <h2 class="display-5 h2">Muse Guitars</h2>
-        <p class="lead">Buying and selling can't be this simple</p>
+        <p class="lead buy-sell">Buying and selling can't be this simple</p>
 
         <div class="input-fields">
-        
-            <fieldset>
-              <select class="results-options p-3">
-                <option selected="selected" value="bM">Best Match</option>
-                <option value="bS">Top Sellers</option>
-                <option value="oR">Customer Ratings</option>
-                <option value="pHL">Price - High to Low</option>
-                <option value="pLH">Price - Low to High</option>
-                <option value="cD">Newest First</option>
-                <option value="bN">Brand Name A-Z</option>
-              </select>
-            </fieldset>
-          
-    
+          <fieldset>
+            <select class="results-options p-3">
+              <option selected="selected" value="bM">Best Match</option>
+              <option value="bS">Top Sellers</option>
+              <option value="oR">Customer Ratings</option>
+              <option value="pHL">Price - High to Low</option>
+              <option value="pLH">Price - Low to High</option>
+              <option value="cD">Newest First</option>
+              <option value="bN">Brand Name A-Z</option>
+            </select>
+          </fieldset>
+
           <input type="text" placeholder="san francisco" />
           <input type="text" placeholder="what do you search for?" />
           <input type="button" value="search" class="button" />
         </div>
-
-
       </div>
     </header>
-      <div class="container shadow-lg p-3  mt-5 mb-5 bg-white rounded">
-          <div class="cover container mt-4">
+    <div class="container shadow-lg p-3 mt-5 mb-5 bg-white rounded">
+      <div class="cover container mt-4">
+        <h1 class="hot">hot adds</h1>
+        <div class="image product">
+          <img src="./assets/img/guitar-1.jpeg" alt="" />
 
-            <h1 class="hot">hot adds</h1>
-            <div class="image product">
-                <img src="./assets/img/guitar-1.jpeg" alt="" />
-
-
-                <div class="sales-info pl-5">
-                  <h1>hot deals</h1>
-                  <p class="info">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum
-                    quis pariatur voluptas ex sed optio eaque recusandae quod placeat
-                    praesentium, nobis alias veritatis aliquid tempore accusamus tenetur,
-                    accusantium quo!
-                  </p>
-                  <div class="author ">
-                    <div>by: John Doe</div>
-                    <div>location: san fransico</div>
-                  </div>
-                  <div class="btn-grp">
-                    <button>$50</button>
-                    <button>purchase</button>
-                  </div>
-                </div>
-              </div>
-             
-      
-              
+          <div class="sales-info pl-5">
+            <h1>hot deals</h1>
+            <p class="info">
+              The guitar is a special instrument, with a different meaning to
+              every player. Whether you're taking your first steps into the
+              world of music or you're a professional rocking out in front of
+              sold out stadiums all over the planet, strumming, plucking and
+              picking on a guitar is a way to express yourself that can't be
+              duplicated with anything else. So pick up a guitar here and start
+              playing... you'll be glad you did.
+            </p>
+            <div class="author">
+              <div><strong> By:</strong> John Doe</div>
+              <div><strong>location:</strong> san fransico</div>
             </div>
-        </div>    
-          
-
-      </div>
-
-    <div class="shops-items container-fluid">
-      <div class="heading container p-4">
-        <div class="pic"></div>
-        <div class="text">
-          Exclusive Guitars: (bass guitar, lead guitars, acoustic guitars)
+            <div class="btn-grp">
+              <button class="price-btn">$450</button>
+              <button class="purchase-btn">purchase details</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="items container ">
+    </div>
+
+    <div class="shops-items container-fluid">
+      <div class="heading container-fluid p-4">
+        <div class="pic"></div>
+        <div class="text d-flex justify-content-between">
+          <div class="d-flex">
+            <p class="Ex">Exclusive Guitars:</p>
+            (bass guitar, lead guitars, acoustic guitars)
+          </div>
+
+          <div class="view-all">view all</div>
+        </div>
+      </div>
+      <div class="items container-fluid">
         <div class="carts container">
           <div class="image container">
             <img src="./assets/img/519266000224000-00-220x220.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead ">Rogue Starter Acoustic Guitar</h1>
-            <div class="status"><p>used</p></div>
-            <div class="locate">canada</div>
+            <h1 class="lead">Rogue Starter Acoustic Guitar</h1>
+            <div class="status">used</div>
+            <div class="locate">from: canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
               <div class="price">$567</div>
@@ -149,7 +154,7 @@
           </div>
           <div class="details container">
             <h1 class="lead">Rogue Rocketeer Electric Guitar Pack</h1>
-            <div class="status"><p>used</p></div>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
@@ -163,8 +168,11 @@
             <img src="./assets/img/guitar2.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">D'Angelico Premier Series EXL-1 Hollowbody Electric Guitar with Stairstep Tailpiece</h1>
-            <div class="status"><p>used</p></div>
+            <h1 class="lead">
+              D'Angelico Premier Series EXL-1 Hollowbody Electric Guitar with
+              Stairstep Tailpiece
+            </h1>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
@@ -178,8 +186,11 @@
             <img src="./assets/img/guitar3.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">D'Angelico Premier Series Limited Edition EXL-1 Hollowbody Electric Guitar</h1>
-            <div class="status"><p>used</p></div>
+            <h1 class="lead">
+              D'Angelico Premier Series Limited Edition EXL-1 Hollowbody
+              Electric Guitar
+            </h1>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
@@ -189,28 +200,31 @@
         </div>
       </div>
 
-
-
-
-
-      <div class="heading container p-4">
+      <div class="heading container-fluid p-4">
         <div class="pic"></div>
-        <div class="text">
-          Exclusive Guitars: (bass guitar, lead guitars, acoustic guitars)
+        <div class="text d-flex justify-content-between">
+          <div class="d-flex">
+            <p class="Ex">Exclusive Guitars:</p>
+            (bass guitar, lead guitars, acoustic guitars)
+          </div>
+
+          <div class="view-all">view all</div>
         </div>
       </div>
-      <div class="items container">
+      <div class="items container-fluid">
         <div class="carts container-fluid">
           <div class="image container">
             <img src="./assets/img/guitar4.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">Alvarez AF60GD Grateful Dead OM Acoustic Guitar</h1>
-            <div class="status"><p>used</p></div>
+            <h1 class="lead">
+              Alvarez AF60GD Grateful Dead OM Acoustic Guitar
+            </h1>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
-              <div class="price">$567</div>
+              <div class="price">$867</div>
             </div>
           </div>
         </div>
@@ -220,12 +234,14 @@
             <img src="./assets/img/guitar5.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">G&L Limited Edition Tribute ASAT Classic Bluesboy Electric Guitar</h1>
-            <div class="status"><p>used</p></div>
+            <h1 class="lead">
+              G&L Limited Edition Tribute ASAT Classic Bluesboy Electric Guitar
+            </h1>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
-              <div class="price">$567</div>
+              <div class="price">$667</div>
             </div>
           </div>
         </div>
@@ -235,12 +251,15 @@
             <img src="./assets/img/guitar6.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">D'Angelico Premier Series DC Boardwalk Semi-Hollow Electric Guitar with Seymour Duncan P90s</h1>
-            <div class="status"><p>used</p></div>
+            <h1 class="lead">
+              D'Angelico Premier Series DC Boardwalk Semi-Hollow Electric Guitar
+              with Seymour Duncan P90s
+            </h1>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
-              <div class="price">$567</div>
+              <div class="price">$767</div>
             </div>
           </div>
         </div>
@@ -250,31 +269,41 @@
             <img src="./assets/img/guitar7.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">Mitchell T333CE-BST Solid Top Mahogany Auditorium Acoustic-Electric Guitar</h1>
-            <div class="status"><p>used</p></div>
+            <h1 class="lead">
+              Mitchell T333CE-BST Solid Top Mahogany Auditorium
+              Acoustic-Electric Guitar
+            </h1>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
-              <div class="price">$567</div>
+              <div class="price">$467</div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="heading container p-4">
+      <div class="heading container-fluid p-4">
         <div class="pic"></div>
-        <div class="text">
-          Exclusive Guitars: (bass guitar, lead guitars, acoustic guitars)
+        <div class="text d-flex justify-content-between">
+          <div class="d-flex">
+            <p class="Ex">Exclusive Guitars:</p>
+            (bass guitar, lead guitars, acoustic guitars)
+          </div>
+
+          <div class="view-all">view all</div>
         </div>
       </div>
-      <div class="items container">
+      <div class="items container-fluid">
         <div class="carts container">
           <div class="image container">
             <img src="./assets/img/guitar8.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">G&L Limited Edition Tribute ASAT Classic Electric Guitar</h1>
-            <div class="status"><p>used</p></div>
+            <h1 class="lead">
+              G&L Limited Edition Tribute ASAT Classic Electric Guitar
+            </h1>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
@@ -288,13 +317,15 @@
             <img src="./assets/img/guitar9.jpg" alt="" />
           </div>
           <div class="details container">
-            <h1 class="lead">D'Angelico Premier Series DC Boardwalk Semi-Hollow Electric Guitar with Seymour Duncan Humbuckers
+            <h1 class="lead">
+              D'Angelico Premier Series DC Boardwalk Semi-Hollow Electric Guitar
+              with Seymour Duncan Humbuckers
             </h1>
-            <div class="status"><p>used</p></div>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
-              <div class="price">$567</div>
+              <div class="price">$667</div>
             </div>
           </div>
         </div>
@@ -305,11 +336,11 @@
           </div>
           <div class="details container">
             <h1 class="lead">Rogue RD80PK Dreadnought Acoustic Guitar Pack</h1>
-            <div class="status"><p>used</p></div>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
-              <div class="price">$567</div>
+              <div class="price">$1567</div>
             </div>
           </div>
         </div>
@@ -320,54 +351,82 @@
           </div>
           <div class="details container">
             <h1 class="lead">Kramer Assault 220 Electric Guitar</h1>
-            <div class="status"><p>used</p></div>
+            <div class="status">used</div>
             <div class="locate">canada</div>
             <div class="bottom-item">
               <div class="plus">+</div>
-              <div class="price">$567</div>
+              <div class="price">$867</div>
             </div>
           </div>
         </div>
+      </div>
     </div>
-    <footer class=" container">
-      <div class="main-footer">
+    <footer class="container">
 
+      <div class="main-footer">
         <div class="about-us">
-          <div class="logo"></div>
-            <div class="texts"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit est recusandae eligendi animi dicta, ad culpa assumenda error dolores minima repellat optio aspernatur nostrum voluptatum, iure rerum quia sed explicabo.</p></div>
-    
+          <div class="logo">
+            <img
+              class="music-img shadow-lg mb-5 rounded"
+              src="./assets/img/music-1368896.svg"
+              alt="guitar"
+            />
+  
+            <div class="cover-music rounded">
+              <h2 class="display-3 ">Muse Guitars</h2>
+            </div>
           </div>
-          <div class="categories container">
-          <div class="category1">
-            <ul>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-            </ul>
+          <div class="texts">
+            <p>
+              One of the most popular instruments ever known to the world, the
+              guitar is something truly special. Versatile in its ability to
+              play different genres, and coming in a variety of styles, every
+              guitar has something different to offer, allowing musicians to
+              make their individual instrument truly their own. From highly
+              sought after models, to everyday pick up and play options, the
+              guitars found here were made to accommodate literally every need
+              a guitarist could ever have.
+            </p>
+          </div>
         </div>
-          <div class="gategory2">
-            <ul>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-              <li><a href="#">lorem</a></li>
-            </ul>
-    
-    
+        
+        <div class="categories ">
+          <div class="cover-1">
+
+            <h1 class="learn">learn more</h1>
+            <div class="group-categories ">
+              <div class="category1">
+                <ul>
+                  <li><a href="#">Order History</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Wish List</a></li>
+                  <li><a href="#">Email Preferences</a></li>
+                </ul>
+              </div>
+              <div class="category2">
+                <ul>
+                  <li><a href="#">Service & Support</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Site Map</a></li>
+                  <li><a href="#">Accessibility Statement</a></li>
+                </ul>
+              </div>
+            </div>
+         
           </div>
+         
         </div>
       </div>
-    <div class="copyright p-4">
-      <div class="p-2 copyright-item">copyright&copy; 2020 museguitar.com </div>
-      <div class="copyright-item">  Allright reserved. Designed by Ignatius Sani</div>
-    </div>
+   
+      <div class="copyright p-4">
+        <div class="p-2 copyright-item">
+          copyright&copy; 2020 museguitar.com
+        </div>
+        <div class="copyright-item">
+          Allright reserved. Designed by Ignatius Sani
+        </div>
+      </div>
     </footer>
   </body>
 </html>
