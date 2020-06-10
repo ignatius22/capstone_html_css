@@ -499,7 +499,7 @@ h2 {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-width:567px){
   .nav-bar {
     background: linear-gradient(to right, #000, #434343);
     display: flex;
