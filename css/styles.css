@@ -491,6 +491,10 @@ h2 {
     grid-gap: 1.2em;
   }
 
+  .bottom-item{
+    margin-bottom: 15px;
+  }
+
   .more-contents {
     display: none;
   }
