@@ -28,6 +28,17 @@ body {
 		color: #ffffff;
 }
 
+
+.more-contents2 {
+  background-color: #d35266;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  padding-left: 89px;
+		font-family: "gotham rounded light";
+		color: #ffffff;
+}
+
 .text{
 	font-family: "gotham rounded light";
 }
@@ -52,7 +63,8 @@ body {
 	font-size: 18px;
 	color: #d35266;
 		font-family: "gotham rounded light";
-		font-weight: 700;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -88,6 +100,14 @@ body {
 	
 }
 
+
+.items2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 1.2em;
+	
+}
 
 
 
@@ -223,6 +243,17 @@ color: #888888;
   padding-top: 12px;
 }
 
+.h3 {
+  box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
+  border: 1px #ccc solid;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 12px;
+}
+
+
 .buy-sell {
   font-size: 25px;
 	color: #ffffff;
@@ -330,10 +361,32 @@ h2 {
 }
 
 
+.input-fields2 {
+	padding-top: 23px;
+	display: flex;
+  justify-content: flex-start;
+  
+}
+
+
 .button{
 	background-color: #383838;
 	padding: 12px;
 	width: 120px;
+	border-radius: 3px;
+	margin-left: 12px;
+	color: #888888;
+}
+
+.search-input, .location, .results-options2{
+  padding: 12px;
+	width: 300px;
+}
+
+.button2{
+	background-color: #383838;
+	padding: 12px;
+	width: 300px;
 	border-radius: 3px;
 	margin-left: 12px;
 	color: #888888;
