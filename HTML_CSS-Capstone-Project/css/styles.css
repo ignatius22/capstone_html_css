@@ -13,7 +13,7 @@ body {
   box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
   position: sticky;
   top: 0;
-  font-family: "gotham rounded bold";
+  font-family: "gotham rounded bold", sans-serif;
 }
 
 .more-contents {
@@ -22,7 +22,7 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
   text-align: center;
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", sans-serif;
   color: #fff;
 }
 
@@ -32,16 +32,16 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
   padding-left: 89px;
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", sans-serif;
   color: #fff;
 }
 
 .text {
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", sans-serif;
 }
 
 .Ex {
-  font-family: "gotham rounded bold";
+  font-family: "gotham rounded bold", sans-serif;
 }
 
 .shops-items {
@@ -56,13 +56,13 @@ body {
 .view-all {
   font-size: 18px;
   color: #d35266;
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", sans-serif;
   font-weight: 700;
   cursor: pointer;
 }
 
 .author {
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", sans-serif;
 }
 
 .info {
@@ -74,13 +74,13 @@ body {
 
 .price {
   font-size: 16px;
-  font-family: 'Gotham rounded bold';
+  font-family: 'Gotham rounded bold', sans-serif;
   color: #d35266;
 }
 
 .sales-info h1 {
   font-size: 16px;
-  font-family: 'Gotham Bold';
+  font-family: 'Gotham Bold', sans-serif;
 }
 
 .items {
@@ -106,7 +106,7 @@ body {
 .details h1 {
   font-size: 19px;
   line-height: 1.2em;
-  font-family: "gotham rounded bold";
+  font-family: "gotham rounded bold", sans-serif;
   padding: 10px;
 }
 
@@ -128,6 +128,18 @@ body {
 footer {
   background-color: #fff;
   margin-top: 12px;
+}
+
+.link-items li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.link-items li {
+  list-style: none;
 }
 
 .group-categories {
@@ -202,7 +214,7 @@ footer {
   text-transform: capitalize;
   border-radius: 4px;
   border: none;
-  font-family: "gotham rounded";
+  font-family: "gotham rounded", sans-serif;
 }
 
 .purchase-btn {
@@ -261,7 +273,7 @@ footer {
 h2 {
   text-transform: uppercase;
   color: #fff;
-  font-family: "Gotham Rounded Book;";
+  font-family: "Gotham Rounded Book", sans-serif;
 }
 
 .link-items .list-1 a {
@@ -323,18 +335,6 @@ h2 {
   color: #fff;
   padding-right: 12px;
   margin-top: 10px;
-}
-
-.link-items li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.link-items li {
-  list-style: none;
 }
 
 .link-item-1 {
@@ -523,7 +523,7 @@ h2 {
     padding-top: 70px;
     padding-bottom: 30px;
     padding-left: 50px;
-    font-family: "gotham rounded light";
+    font-family: "gotham rounded light", sans-serif;
     color: #fff;
   }
 
@@ -613,7 +613,7 @@ h2 {
     box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
     position: sticky;
     top: 0;
-    font-family: "gotham rounded bold";
+    font-family: "gotham rounded bold", sans-serif;
   }
 
   .display-4 {
