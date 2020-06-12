@@ -115,7 +115,7 @@ body {
 }
 
 .items .carts {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 auto;
   background-color: #fff;
 }
@@ -428,9 +428,7 @@ h2 {
 /* =====> media queries <====== */
 
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
+
 
   .nav-bar {
     background: linear-gradient(to right, #000, #434343);
@@ -487,8 +485,19 @@ h2 {
     top: 13px;
   }
 
+  .info{
+    font-size: 13px;
+  }
+
   .list img {
     width: 8px;
+  }
+  .product img, .sales-info, .btn-grp .purchase-btn{
+    width: 100%;
+  }
+
+  .hot-deal{
+    max-width: 60%;
   }
 
   .display-4 {
@@ -509,6 +518,11 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 12px;
+  }
+
+
+  .purchase-btn, .price-btn, .author{
+    font-size: 12px;
   }
 
   .main-footer {
@@ -760,13 +774,8 @@ h2 {
 
 } */
 
-  body {
-    overflow-x: hidden;
-  }
 
-  .cover {
-    padding: 50px;
-  }
+ 
 
   .aco {
     margin-right: 32px;
