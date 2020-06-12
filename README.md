@@ -14,7 +14,7 @@ An Online Shop For Musical Instrument
 
 ## Live Demo
 
-Live link here: https://rawcdn.githack.com/ignatius22/HTML_CSS-Capstone-Project/67614fa8b9bff2bac6e761671eb26b15279039d4/HTML_CSS-Capstone-Project/index.html
+Live link here: https://rawcdn.githack.com/ignatius22/capstone_html_css/e0ab1e6adc40216197ca6e06efdb21435fb49ec4/index.html
 
 
 ## Authors
