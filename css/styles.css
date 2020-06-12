@@ -287,8 +287,6 @@ footer {
 }
 
 .h3 {
-  box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
-  border: 1px #ccc solid;
   width: 300px;
   height: 50px;
   text-align: center;
@@ -440,7 +438,7 @@ h2 {
 
   .items2 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-gap: 1.2em;
   }
@@ -629,7 +627,7 @@ h2 {
   .cover-music h2 {
     font-size: 12px;
   }
-.price-btn{
+.price-btn,.purchase-btn2{
   margin-bottom: 5px;
 }
   /* .user-info p {
@@ -690,17 +688,13 @@ h2 {
   }
 
   .more-contents2 {
-    padding: 10px;
+    padding: 15px;
   }
 }
 
 @media (min-width: 768px) {
   .nav-bar {
     background: linear-gradient(to right, #000, #434343);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
     box-shadow: 0 9px 12px 0 #c26d99, 0 9px 20px 0 red;
   }
 
@@ -794,10 +788,6 @@ h2 {
 @media (min-width: 992px) {
   .nav-bar {
     background: linear-gradient(to right, #000, #434343);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
     box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
   }
 
@@ -833,13 +823,7 @@ h2 {
 @media (min-width: 1200px) {
   .nav-bar {
     background: #383838;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
     box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
-    position: sticky;
-    top: 0;
     font-family: 'gotham rounded bold', sans-serif;
   }
 
