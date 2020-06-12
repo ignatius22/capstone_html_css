@@ -445,23 +445,23 @@ h2 {
     grid-gap: 1.2em;
   }
 
-  
+/*   
   .link-items {
     display: flex;
     width: 100%;
   
-  }
+  } */
 
-  .link-items li {
+  /* .link-items li {
     margin: 5px auto;
     position: relative;
     right: 23px;
-  }
+  } */
 
-  .right {
+  /* .right {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   /* .user-info,
   .right {
@@ -551,7 +551,7 @@ h2 {
 
   .list,
   .list-1 , .user-info{
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .texts,
@@ -630,10 +630,10 @@ h2 {
     font-size: 12px;
   }
 
-  .user-info p {
+  /* .user-info p {
     font-size: 10px;
     font-weight: 400;
-  }
+  } */
 
   .counter {
     width: 10px;
