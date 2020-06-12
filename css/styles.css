@@ -428,14 +428,11 @@ h2 {
 /* =====> media queries <====== */
 
 @media (max-width: 768px) {
-
+ 
 
   .nav-bar {
     background: linear-gradient(to right, #000, #434343);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 5px;
     box-shadow: 0 9px 12px 0 #ff0084, 0 9px 20px 0 red;
     width: 100%;
@@ -488,29 +485,18 @@ h2 {
     top: 13px;
   }
 
-  .info{
-    font-size: 13px;
-  }
-
   .list img {
     width: 8px;
   }
-  .product img, .sales-info, .btn-grp .purchase-btn{
-    width: 100%;
-  }
-
-  .hot-deal{
-    max-width: 60%;
-  }
 
   .display-4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
   }
 
   .input-fields,
   .input-fields2 {
-    padding-top: 23px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -521,11 +507,6 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 12px;
-  }
-
-
-  .purchase-btn, .price-btn, .author, .cover .hot{
-    font-size: 12px;
   }
 
   .main-footer {
@@ -598,7 +579,7 @@ h2 {
 
   .items {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-gap: 1.2em;
   }
@@ -610,10 +591,10 @@ h2 {
     font-size: 12px;
   }
 
-  .carts img {
+  /* .carts img {
     width: 100px;
     height: 100px;
-  }
+  } */
 
   .details .lead {
     font-size: 12px;
@@ -777,8 +758,11 @@ h2 {
 
 } */
 
-
  
+
+  .cover {
+    padding: 50px;
+  }
 
   .aco {
     margin-right: 32px;
