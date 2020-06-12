@@ -629,7 +629,9 @@ h2 {
   .cover-music h2 {
     font-size: 12px;
   }
-
+.price-btn{
+  margin-bottom: 5px;
+}
   /* .user-info p {
     font-size: 10px;
     font-weight: 400;
