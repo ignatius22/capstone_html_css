@@ -29,7 +29,7 @@
 
 ## Live Demo
 
-Live link here: https://rawcdn.githack.com/ignatius22/capstone_html_css/e0ab1e6adc40216197ca6e06efdb21435fb49ec4/index.html
+Live project [Muse Guitars](https://rawcdn.githack.com/ignatius22/capstone_html_css/8618821e738a2106b4c3b9d3101c32435a08d7b2/index.html)
 
 
 ## Authors
