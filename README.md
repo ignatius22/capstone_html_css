@@ -36,5 +36,5 @@ Live project [Muse Guitars](https://rawcdn.githack.com/ignatius22/capstone_html_
 
 👤 **Author**
 Ignatius Sani:
-- Github: https://github.com/ignatius22 
-- Linkedin: https://www.linkedin.com/in/ignatius-sani-982b8b186/  
+- [Github](https://github.com/ignatius22)
+- [Linkedin](https://www.linkedin.com/in/ignatiussani) 
