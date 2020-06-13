@@ -8,8 +8,6 @@
  For the route, click on the "collection link on the nav bar" for the next page.
  ## Contributing to the HTML & CSS Capstone Project
  
- ---
- 
  To contribute to the HTML & CSS Capstone Project, follow this steps:
  
  ---
