@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/gotham-fonts@1.0.3/css/gotham-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/system-font-css@2.0.2/system-font.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap"
+      rel="stylesheet"
+    />
+    <title>Muse Guitars</title>
+  </head>
+  <body>
+    <header>
+      <nav
+      class="nav-bar navbar navbar-expand-sm navbar-expand-lg navbar-expand-md container-fluid"
+    >
+      <div class="logo">
+        <img
+          class="music-img shadow-lg mb-5 rounded"
+          src="./assets/img/music-1368896.svg"
+          alt="guitar"
+        />
+
+        <div class="cover-music rounded">
+          <h2 class="display-4">Muse Guitars</h2>
+        </div>
+      </div>
+      <ul class="link-items navbar-nav">
+        <li class="list-1 nav-item">
+          <img src="./assets/img/home.svg" alt="home" />
+          <a href="index.html">home</a>
+        </li>
+        <li class="list nav-item">
+          <img src="./assets/img/collection.svg" alt="collection" />
+          <a href="#">collection</a>
+        </li>
+        <li class="list nav-item">
+          <img src="./assets/img/cart.svg" alt="purchase list" />
+          <a class="purchase" href="#">purchase list</a>
+        </li>
+        <li class="nav-item">
+          <button class="button-post">post an ad</button>
+        </li>
+      </ul>
+      <div class="right">
+        <div class="counter-envelop">
+          <img class="evelop" src="./assets/img/evelop.svg" alt=" envelop" />
+          <p class="counter">4</p>
+        </div>
+
+        <div class="user-info">
+          <p>John Doe</p>
+          <div class="avatar">
+            <img
+              src="./assets/img/woman.svg"
+              alt="woman"
+              width="35"
+              height="35"
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+      <div class="more-contents2">
+        <h2 class="display-5 h3">Muse Guitars</h2>
+        <p class="lead buy-sell2">
+          Search around 123,345 are waiting to be sold
+        </p>
+
+        <div class="input-fields2">
+          <fieldset>
+            <select class="results-options2 p-3">
+              <option selected="selected" value="bM">Best Match</option>
+              <option value="bS">Top Sellers</option>
+              <option value="oR">Customer Ratings</option>
+              <option value="pHL">Price - High to Low</option>
+              <option value="pLH">Price - Low to High</option>
+              <option value="cD">Newest First</option>
+              <option value="bN">Brand Name A-Z</option>
+            </select>
+          </fieldset>
+
+          <input type="text" placeholder="san francisco" class="location" />
+          <input
+            type="text"
+            placeholder="what do you search for?"
+            class="search-input"
+          />
+          <input type="button" value="search" class="button2" />
+        </div>
+      </div>
+    </header>
+    <div class="aside m-auto row">
+      <div class="aside-items col-3-lg col-sm-12 col-md-4 col-xl-3 ">
+        <div class="alone  mt-3">
+          <div class="d-flex align-items-center">
+            <input
+            type="checkbox"
+            id="guitar"
+            class=""
+            name="guitar"
+            value="guitar"
+          />
+          <label for="guitar" class="ml-2 mt-2 aco"> Acoustic guitar</label><br />
+          <input
+            class=""
+            type="checkbox"
+            id="guitar"
+            name="guitar"
+            value="guitar"
+          />
+          <label for="guitar" class="ml-2 mt-2 aco">lead guitars</label><br />
+          </div>
+         
+        </div>
+        <div class="side ">
+          <div class="side-items">
+            <div class="type searched">types</div>
+            <input type="checkbox" id="types1" name="types1" value="Acoustic" />
+            <label for="types1" class="aco2"> Acoustic guitar</label><br />
+            <input type="checkbox" id="types2" name="types2" value="Acoustic" />
+            <label for="types2" class="aco2"> Semi-Acoustic guitar</label><br />
+            <input type="checkbox" id="types3" name="types3" value="lead" />
+            <label for="types3" class="aco2"> Electric lead guitars</label><br />
+          </div>
+          <div class="side-items">
+            <div class="type searched">sizes</div>
+            <input type="checkbox" id="sizes1" name="sizes1" value="inches" />
+            <label for="sizes1" class="aco2"> 2 - 4 inches</label><br />
+            <input type="checkbox" id="sizes12" name="sizes2" value="inches" />
+            <label for="guitar" class="aco2"> 3 - 5 inches</label><br />
+            <div class="d-flex">
+              <input  type="checkbox" id="sizes3" name="sizes3" value="inches" /> 
+              <label class="ml-1 aco2" for="sizes3"> custom</label><br /><input class="input-check ml-2" type="text">
+            </div>
+           
+
+          </div>
+          <div class="side-items">
+            <div class="type searched">price range</div>
+            <input type="checkbox" id="price1" name="price1" value="price" />
+            <label for="price1" class="aco2"> $300 - $400</label><br />
+            <input type="checkbox" id="price2" name="price2" value="price" />
+            <label for="price2" class="aco2"> $500 - $700</label><br />
+            <input type="checkbox" id="price3" name="price3" value="price" />
+            <label for="price3" class="aco2"> $800-$940</label><br />
+            <input type="checkbox" id="price4" name="price4" value="price" />
+            <label for="price4" class="aco2"> $1000</label><br />
+          </div>
+        </div>
+      </div>
+      <div class="aside-items col-9-lg col-sm-12 col-md-8 col-xl-9">
+        <div class="titlee  p-3">
+          138 result for "hollow guitar" search at san fransico in category
+          Acoustic
+        </div>
+        <div class="searched ">
+          <div
+            class="searched-items bg-gray p-3 d-flex align-items-center justify-content-center"
+          >
+            <div class="image-search shadow-lg ml-2 mt-2 mb-2 bg-white rounded">
+              <img src="./assets/img/guitar10.jpg" alt="guitar" />
+            </div>
+            <div class="searched-details p-3">
+              <div class="title-holder d-flex justify-content-between">
+                <div class="title">
+                  <h4 class="h4">Rogue Starter Acoustic Guitar</h4>
+                  <p>1.2 inch, length</p>
+                </div>
+                <p class="plus">+</p>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                est adipisci saepe ipsa? Quam quisquam accusantium, praesentium
+                qui fugiat distinctio soluta aperiam, tenetur aliquam assumenda
+                sed temporibus eius esse laborum!
+              </div>
+              <div class="more d-flex justify-content-between">
+                <div>
+                  <div class="locat"><strong>location:</strong> 21 street san fransico</div>
+                  <div class="date">11 Jun, 2020</div>
+                </div>
+
+                <button class="price-btn ">$950</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="searched">
+          <div
+            class="searched-items  mt-2 mb-2 bg-white rounded  d-flex align-items-center justify-content-center"
+          >
+            <div class="image-search shadow-lg ml-2 mt-2 mb-2 bg-white rounded ">
+              <img src="./assets/img/guitar3.jpg" alt="guitar" />
+            </div>
+            <div class="searched-details p-3">
+              <div class="title-holder d-flex justify-content-between">
+                <div class="title">
+                  <h4 class="h4">Rogue Starter Acoustic Guitar</h4>
+                  <p>1.3 inch, length</p>
+                </div>
+                <p class="plus">+</p>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                est adipisci saepe ipsa? Quam quisquam accusantium, praesentium
+                qui fugiat distinctio soluta aperiam, tenetur aliquam assumenda
+                sed temporibus eius esse laborum!
+              </div>
+              <div class="more d-flex justify-content-between">
+                <div>
+                  <div class="locate"> <strong>location:</strong> 21 street san fransico </div>
+                  <div class="date">11 May, 2020</div>
+                </div>
+                <div class="btn-grp2">
+                  <button class="purchase-btn2">give a call</button>
+                  <button class="price-btn">$850</button>
+                  
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="searched ">
+          <div
+            class="searched-items p-3 d-flex align-items-center justify-content-center"
+          >
+            <div class="image-search shadow-lg ml-2 mt-2 mb-2 bg-white rounded">
+              <img src="./assets/img/guitar4.jpg" alt="guitar" />
+            </div>
+            <div class="searched-details p-3">
+              <div class="title-holder d-flex justify-content-between">
+                <div class="title">
+                  <h4 class="h4">Rogue Rocketeer Electric Guitar Pack</h4>
+                  <p>1.25 inch, length</p>
+                </div>
+                <p class="plus">+</p>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                est adipisci saepe ipsa? Quam quisquam accusantium, praesentium
+                qui fugiat distinctio soluta aperiam, tenetur aliquam assumenda
+                sed temporibus eius esse laborum!
+              </div>
+              <div class="more d-flex justify-content-between">
+                <div>
+                  <div class="locat"><strong>location:</strong> 2 street san Italy</div>
+                  <div class="date">12 Feb, 2020</div>
+                </div>
+
+                <button class="price-btn">$750</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="searched ">
+          <div
+            class="searched-items d-flex align-items-center justify-content-center p-3"
+          >
+            <div class="image-search shadow-lg ml-2 mt-2 mb-2 bg-white rounded">
+              <img src="./assets/img/guitar6.jpg" alt="guitar" />
+            </div>
+            <div class="searched-details p-3">
+              <div class="title-holder d-flex justify-content-between">
+                <div class="title">
+                  <h4 class="h4">D'Angelico Premier Series EXL-1 Hollowbody Electric</h4>
+                  <p>1.32 inch, length</p>
+                </div>
+                <p class="plus">+</p>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                est adipisci saepe ipsa? Quam quisquam accusantium, praesentium
+                qui fugiat distinctio soluta aperiam, tenetur aliquam assumenda
+                sed temporibus eius esse laborum!
+              </div>
+              <div class="more d-flex justify-content-between">
+                <div>
+                  <div class="locat"><strong>location:</strong> 26 street USA</div>
+                  <div class="date">15 Jan, 2020</div>
+                </div>
+
+                <button class="price-btn">$460</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="searched border-bottom ">
+          <div
+            class="searched-items p-3 d-flex align-items-center justify-content-center"
+          >
+            <div class="image-search shadow-lg ml-2 mt-2 mb-2 bg-white rounded">
+              <img src="./assets/img/guitar8.jpg" alt="guitar" />
+            </div>
+            <div class="searched-details p-3">
+              <div class="title-holder d-flex justify-content-between">
+                <div class="title">
+                  <h4 class="h4"> Alvarez AF60GD Grateful Dead OM Acoustic Guitar</h4>
+                  <p>1.2 inch, length</p>
+                </div>
+                <p class="plus">+</p>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                est adipisci saepe ipsa? Quam quisquam accusantium, praesentium
+                qui fugiat distinctio soluta aperiam, tenetur aliquam assumenda
+                sed temporibus eius esse laborum!
+              </div>
+              <div class="more d-flex justify-content-between">
+                <div>
+                  <div class="locat"><strong>location:</strong> 21 street  Mexico</div>
+                  <div class="date">11 Jun, 2020</div>
+                </div>
+
+                <button class="price-btn">$150</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <ul class="d-flex justify-content-center page-no mt-3">
+           
+            <li class="mr-2"><a class="page" href="#">1</a></li>
+            <li class="mr-2"><a class="page" href="#">2</a></li>
+            <li class="mr-2"><a class="page" href="#">3</a></li>
+            <li class="mr-2"><a class="page" href="#">4</a></li>
+            <li class="ml-2"><a class="page" href="#">7</a></li>
+         
+          </ul>
+      
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="main-footer">
+        <div class="about-us">
+          <div class="texts">
+            <p>
+              One of the most popular instruments ever known to the world, the
+              guitar is something truly special. Versatile in its ability to
+              play different genres, and coming in a variety of styles, every
+              guitar has something different to offer, allowing musicians to
+              make their individual instrument truly their own. From highly
+              sought after models, to everyday pick up and play options, the
+              guitars found here were made to accommodate literally every need a
+              guitarist could ever have.
+            </p>
+          </div>
+        </div>
+
+        <div class="categories">
+          <div class="cover-1">
+            <h1 class="learn">learn more</h1>
+            <div class="group-categories">
+              <div class="category1">
+                <ul>
+                  <li><a href="#">Order History</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Wish List</a></li>
+                  <li><a href="#">Email Preferences</a></li>
+                </ul>
+              </div>
+              <div class="category2">
+                <ul>
+                  <li><a href="#">Service & Support</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Site Map</a></li>
+                  <li><a href="#">Accessibility Statement</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright p-4">
+        <div class="p-2 copyright-item">
+          copyright&copy; 2020 museguitar.com
+        </div>
+        <div class="copyright-item">
+          Allright reserved. Designed by Ignatius Sani
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
